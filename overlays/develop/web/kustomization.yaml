@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- resources.yaml
+
+images:
+- name: go-web
+  newName: sbahari1090/go-web-app
+  newTag: latest
+replicas:
+- count: 1
+  name: go-web
+commonLabels:
+  app: go-web
