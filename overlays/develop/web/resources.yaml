@@ -35,7 +35,7 @@ spec:
     metadata:
       labels:
         app.kubernetes.io/name: go-web
-    spec:  
+    spec:
       containers:
       - name: go-web
         image: "go-web:latest"
