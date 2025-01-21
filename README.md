@@ -23,5 +23,7 @@ $ cd terraform
 $ terraform init
 $ terraform apply
 
+Create Project with name argocd On ArgoCD UI
+
 Deploy ArgoCD Manifest and Sample Kube Deployment
 $ kustomize build argocd-fleets/overlays/develop
