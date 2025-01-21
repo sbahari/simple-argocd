@@ -19,9 +19,9 @@ $ kind create cluster
 
 Install ArgoCD with Terraform and Helm
 
-$ cd terraform
-$ terraform init
-$ terraform apply
+$ cd terraform <br />
+$ terraform init <br />
+$ terraform apply <br />
 
 Create Project with name argocd On ArgoCD UI
 
